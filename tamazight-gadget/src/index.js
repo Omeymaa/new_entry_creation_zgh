@@ -1,5 +1,5 @@
 import buildUI from './ui/formBuilder';
-import  attachEvents from './ui/events';
+import attachEvents from './ui/events';
 
 export default function initGadget() {
     if (typeof mw === 'undefined') {
